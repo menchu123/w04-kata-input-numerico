@@ -7,7 +7,7 @@ function App() {
   const [number, setNumber] = useState("0");
 
   function plus() {
-    if (number < 20) {
+    if (number < 10) {
       setNumber(Number(number) + 1);
     }
   }
